@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root {
+  --text-color: hsl(233, 26%, 24%);
+  --logo-color: hsl(233, 26%, 24%);
+  --first-background: hsl(0, 100%, 100%);
+  --button-colors: hsl(136, 64%, 51%);
+  --second-background: hsl(233, 8%, 62%);
+  --button2-colors: cyan;
+}
+
+body {
+  padding-left: 5px;
+}
+
+/* <styling the navbar> */
+
+.navbar {
+  position: fixed;
+  display: flex;
+  background-color: var(--first-background);
+  justify-content: space-between;
+  padding: 2em 3em;
+  height: 7vh;
+  z-index: 10;
+  width:100%;
+}
+
+.navbar .logo h3 {
+  display: flex;
+  justify-content: start;
+  padding-left: 3em;
+  font-size: larger;
+}
+
+.navbar .logo span {
+  color: var(--button-colors);
+}
+
+.navbar .links {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: row;
+  position: relative;
+  cursor: pointer;
+  row-gap: 3em;
+  color: var(--text-color);
+  padding: 0 25px;
+  color: var(--second-background);
+  font-size: large;
+}
+
+.Contact {
+  display: flex;
+  justify-content: end;
+  padding-right: 5em;
+}
+
+.Contact a button {
+  height: 4em;
+  width: 12em;
+  border-radius: 15px;
+  background-color: var(--button-colors);
+  border: none;
+  font-size: medium;
+}
+
+/* styling the Home page of the Portfolio website */
+
+.Home {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10em;
+  padding-left: 2em;
+  justify-content: space-between;
+  height: 110vh;
+  gap: 5em;
+}
+
+.Home .Home-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5em;
+  padding-left: 4em;
+}
+
+.Home .Home-text span {
+  color: var(--button-colors);
+  font-size: larger;
+}
+
+.Home .Home-text p {
+  font-size: large;
+  inline-size: 40ch;
+}
+
+.Home .Home-text a {
+  text-decoration: none;
+  color: var(--button-colors);
+  cursor: pointer;
+}
+
+.Home .Home-Photo {
+  display: flex;
+  justify-content: center;
+  padding-right: 7em;
+}
+
+.Home .Home-Photo img {
+  width: 30em;
+  height: 80vh;
+  border-radius: 100px;
+  border:none
+}
+
+/* styling the Project section of the portfolio website */
+
+.Projects {
+  display: flex;
+  flex-direction: Column;
+  padding-top: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  height: auto;
+  background-color: var(--second-background);
+}
+
+.Projects .Projects-text {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  inline-size: 40ch;
+  padding-left: 3em;
+  font-size: larger;
+}
+
+.Projects .Projects-text span {
+  color: var(--button-colors);
+}
+
+.Recent-Projects {
+display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+  padding-top: 3em;
+  padding-left: 8em;
+  padding-right: 8em;
+  gap: 7em;
+  
+
+}
+
+.Projects .Projects-Cards {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 25%;
+}
+
+.Projects .Projects-Cards img {
+  height: auto;
+  width: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.Projects .Projects-Cards .About-Projects {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background-color: whitesmoke;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.Projects .Projects-Cards .About-Projects span {
+  color: var(--button-colors);
+}
+
+.Projects .Projects-Cards .About-Projects a {
+  text-decoration: none;
+  color: var(--button-colors);
+  cursor: pointer;
+  font-size: large;
+}
+
+
+/* styling the about section of the portfolio website */
+
+.About{
+  display:flex;
+  height:70vh;
+  width:auto;
+  background-color:hsl(0, 0%, 92%);
+
+}
