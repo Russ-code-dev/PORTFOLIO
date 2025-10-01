@@ -117,7 +117,7 @@ body {
   display:flex;
   justify-content: start;
   gap:3em;
-}
+} 
 
 /* Hovering effect that will make the icons apperear green will be added */
 .Home .Home-text .social-media a{  
