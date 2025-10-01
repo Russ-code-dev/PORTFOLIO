@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -30,7 +30,7 @@ body {
   padding: 2em 3em;
   height: 7vh;
   z-index: 10;
-  width:100%;
+  width: 100%;
 }
 
 .navbar .logo h3 {
@@ -123,7 +123,7 @@ body {
   width: 30em;
   height: 80vh;
   border-radius: 100px;
-  border:none
+  border: none;
 }
 
 /* styling the Project section of the portfolio website */
@@ -152,15 +152,13 @@ body {
 }
 
 .Recent-Projects {
-display:flex;
-flex-direction: row;
-flex-wrap:wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding-top: 3em;
   padding-left: 8em;
   padding-right: 8em;
-  gap: 7em;
-  
-
+  gap:6em;
 }
 
 .Projects .Projects-Cards {
@@ -201,13 +199,11 @@ flex-wrap:wrap;
   font-size: large;
 }
 
-
 /* styling the about section of the portfolio website */
 
-.About{
-  display:flex;
-  height:70vh;
-  width:auto;
-  background-color:hsl(0, 0%, 92%);
-
+.About {
+  display: flex;
+  height: 70vh;
+  width: auto;
+  background-color: hsl(0, 0%, 92%);
 }
