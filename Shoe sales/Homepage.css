@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    font-family: kumbh sans-serif;
+    font-weight: 400, 700;
+}
+
+:root{
+--h1-color:#000000;
+--button-color:#ff7d1a;
+--backgroud-color:#ffffff;
+--text-color:#b6bcc8;
+
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-top: 2em;
+    box-shadow: 2px 2px 25px 20px rgba(0,0,0,.2);
+    border-radius:15px 15px;
+    height:12vh;
+
+    
+  
+}
+
+.navbar a{
+    text-decoration: none;
+    color:var(--text-color);
+    gap:2em;
+    
+    
+
+}
+
+.navbar a h2{
+    color: var(--h1-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.logo{
+    display: flex;
+    justify-content: end;
+    padding-left: 30em;
+    height: 3vh;
+    width: 3%;
+    gap:2em;
+}
+
+/*style for body section*/
+
+.body{
+    display: flex;
+    justify-content: space space-between;
+    margin-top: 5em;
+    align-items: center;
+    padding-left: 5em;
+    flex: row;
+    gap:7em;
+    
+    
+}
+
+.body .image img{
+    width:260px;
+    height:260px;
+    border-radius:15px;
+}
+
+
+.body .image1{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+}
+
+.body .image1 img{
+    width:40px;
+    height:40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+
+.body .sneakers{
+    display: flex;
+    flex-direction: column;
+    margin-top: -2e;
+
+}
+
+.body .sneakers  p{
+    padding-right: 25em;
+
+}
+
+.body .sneakers span{
+    color: var(--text-color);
+    font-size: auto;
+    text-decoration: line-through;
+}
+
+.body .sneakers h4{
+    color:var(--text-color);
+    font: 30px;
+}
+
+
+.body .sneakers .price{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap:1em;
+}
+
+.body .sneakers .price button{
+    border-radius: 10px;
+    background-color: var(--h1-color);
+    width:50px;
+    height: 30px;
+    color:var(--backgroud-color);
+    text-align: center;
+}

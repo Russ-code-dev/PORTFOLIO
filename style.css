@@ -113,6 +113,20 @@ body {
   cursor: pointer;
 }
 
+.Home .Home-text .social-media{
+  display:flex;
+  justify-content: start;
+  gap:3em;
+}
+
+/* Hovering effect that will make the icons apperear green will be added */
+.Home .Home-text .social-media a{  
+  font-size: 30px;
+  color:black;
+  background-size: 33px;
+  border-radius: 12px;
+} 
+
 .Home .Home-Photo {
   display: flex;
   justify-content: center;
